@@ -266,7 +266,7 @@ const handleAddToCart = (plant) => {
 
    const handleContinueShopping = () => {
     setShowCart(false);
-};
+
 
     };
     return (
@@ -317,7 +317,6 @@ const handleAddToCart = (plant) => {
 </div>
 
 
-                
             ) : (
                 <CartItem onContinueShopping={handleContinueShopping} />
             )}
